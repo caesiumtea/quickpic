@@ -12,4 +12,5 @@ Created for Codedex.io JS course final project.
 - Make button/timer float on the side or something so that it remains on screen alongside image on short wide screens?
 - Give the circle a visual countdown ring that shrinks with the time remaining
 - Use Unsplash or similar (higher quality photos) instead of Picsum
+- Add an option to quit current session and refresh the image early
 - Allow user to enter a search term instead of image being completely random
