@@ -11,10 +11,14 @@ function updateTime() {
     if (time === 0) {
         clearInterval(interval);
         countdownOn = false;
-        timerCircle.innerText = "start";
+        timerCircle.innerHTML = ""; // clear the numbers from the circle
+        const btn = document.createElement("button"); // create button
+        btn.id = "start-btn";
+        btn.innerText = "start";
+        timerCircle.appendChild(btn); // insert button into circle
     } else {
         time -= 1;
-        timerCircle.innerText = time;
+        timerCircle.innerHTML = time;
     }
 }
 
