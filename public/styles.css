@@ -23,6 +23,7 @@ header {
 #photo {
   margin: auto;
   display: block;
+  max-width: 90vw;
 }
 
 #photo-wrapper {
