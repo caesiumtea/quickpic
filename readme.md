@@ -6,7 +6,6 @@ Created for Codedex.io JS course final project.
 
 ## To do
 - Address problem where the timer starts counting down while the new image is still loading, so that you don't actually get the full 30 seconds to draw
-- Use a more semantic element instead of just adding a listener to a div
 - Add sound when timer finishes
 - Make it possible to change the timer length (preset choices, or enter your own number?)
 - Improve the text styling 
