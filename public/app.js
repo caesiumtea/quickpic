@@ -1,6 +1,7 @@
 let maxTime = 30;
 let countdownOn = false;
 let interval;
+let time;
 
 let timerCircle = document.getElementById("timer-circle");
 let photo = document.getElementById("photo");
